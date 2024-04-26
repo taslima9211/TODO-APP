@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image:url("img/neom-Kcna6XWDY7w-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+   
+.todo-app{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    height: 500px;
+    overflow: auto;
+
+}
+
+.todo-app h1{
+    text-align: center;
+    color: gold;
+    margin: 20px;
+}
+
+ul{
+    
+    list-style-type: none;
+
+
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.row input{
+    outline: none;
+    border-radius: 10px;
+    flex-grow: 1;
+    padding: 20px;
+    
+}
+
+.row button{
+    border: none;
+    padding: 5px  15px;
+    border-radius: 10px;
+    background-color: gold;
+    margin-left: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+
+}
+
+ 
+ul li{
+    margin: 20px 0;
+    background-color:gray;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    justify-content: space-between;
+  
+
+}
+li span{
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+ul li:hover{
+    background-color: goldenrod;
+}
